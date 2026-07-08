@@ -1,0 +1,88 @@
+.resume_summary {
+  margin-bottom: 130px;
+}
+.resume_summary .resume_summary_title {
+  font-weight: 700;
+  font-size: 35px;
+  font-family: "Open Sans", sans-serif;
+  color: #181818;
+  text-align: center;
+  margin-bottom: 113px;
+}
+.resume_summary .education_summary {
+  margin-bottom: 30px;
+}
+.resume_summary .education_summary_item {
+  border-bottom: 1px solid #75757550;
+}
+
+.resume_summary .education_summary_heading {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #474747;
+  text-transform: capitalize;
+  /* margin-bottom: 30px; */
+}
+.resume_summary .education_summary_title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: #474747;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+.resume_summary .education_summary_subtitle {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #757575;
+  text-transform: capitalize;
+  /* margin-bottom: 20px; */
+}
+.resume_summary .education_summary_details {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #757575;
+  text-transform: capitalize;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+
+.resume_summary .download_btn {
+  display: flex;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 17px 19px;
+  background-color: #fd6e0a;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all linear 0.2s;
+  border: 1px solid #fd6e0a;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  text-transform: capitalize;
+  font-weight: 700;
+  gap: 10px;
+}
+.resume_summary .download_btn .icon_orange {
+  display: none;
+}
+.resume_summary .download_btn:hover {
+  background-color: transparent;
+  border: 1px solid #fd6e0a;
+  transition: all linear 0.2s;
+}
+.resume_summary .download_btn:hover .icon_white {
+  display: none;
+}
+.resume_summary .download_btn:hover .icon_orange {
+  display: block;
+}
+.resume_summary .download_btn:hover p {
+  color: #fd6e0a;
+  transition: all linear 0.2s;
+}
