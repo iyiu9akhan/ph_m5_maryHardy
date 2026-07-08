@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+header{
+    margin-top: 50px;
+    /* background-color: black; */
+}
+header .container .logo {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 61px;
+  text-transform: capitalize;
+  color: #181818;
+}
+header .container .logo span{
+    color: #FD6E0A;
+}
