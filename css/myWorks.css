@@ -1,0 +1,44 @@
+.myWorks p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  text-align: center;
+  color: #181818;
+  text-transform: capitalize;
+  margin-bottom: 50px;
+  margin-bottom: 50px;
+}
+.myWorks .myWorks_list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-auto-rows: 250px; */
+  gap: 24px;
+  grid-template-areas:
+    "one two three"
+    "four two six"
+    "four five six";
+    margin-bottom: 130px;
+}
+.myWorks .myWorks_list img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.myWorks .myWorks_list .work-1 {
+  grid-area: one;
+}
+.myWorks .myWorks_list .work-2 {
+  grid-area: two;
+}
+.myWorks .myWorks_list .work-3 {
+  grid-area: three;
+}
+.myWorks .myWorks_list .work-4 {
+  grid-area: four;
+}
+.myWorks .myWorks_list .work-5 {
+  grid-area: five;
+}
+.myWorks .myWorks_list .work-6 {
+  grid-area: six;
+}
