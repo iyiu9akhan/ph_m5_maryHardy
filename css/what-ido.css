@@ -1,0 +1,48 @@
+.what-ido .upper .upper-title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  text-align: center;
+  color: #181818;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+.what-ido .upper .upper-details {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #757575;
+  /* margin-bottom: 50px; !important */
+  text-align: center;
+  max-width: 909px;
+  margin: 0 auto;
+}
+.what-ido .lower {
+  margin-top: 50px;
+  display: flex;
+  gap: 24px;
+}
+.what-ido .lower .lower-item {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  padding: 30px;
+  margin-bottom: 130px;
+}
+.what-ido .lower .lower-title {
+  text-transform: capitalize;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 19px;
+  color: #181818;
+  margin-top: 30px;
+}
+.what-ido .lower .lower-details {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  color: #757575;
+  margin-top: 20px;
+}
